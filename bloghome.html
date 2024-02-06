@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<link rel="stylesheet" href="stylehome.css">
+	<script type="text/javascript" src="scriptjs.js">
+	</script>
+</head>
+
+<body onload="checkMode()">
+	<span class="menutop" id="menucl" onmouseover="ColCh()" onmouseout="ColBk()">
+		<a href="index.html">Home</a>
+		<a href="skills.html">Skills</a>
+		<a href="education.html">Education</a>
+		<a href="achieve.html">Achievements</a>
+		<a class="active" href="#Blog">Blog</a>
+		<a onClick="toggleMode()" id="toggleMode"> Toggle Mode </a>
+
+	</span>
+
+	<center>
+		  
+<table class="cardtable" id="cards">
+	<tr>
+		<td>
+			<div class="card" id="post">
+				<h2>House of Leaves: An Overview</h2>
+				<h5>After recently reading HoL, I had some thoughts I thought I'd share.</h5>
+				<p>While Danielewski himself classifies House of Leaves as a horror story, I can't help but think that the core of it all might just be love.
+					At least in the Navidson Record. The story of Johnny Truant that we see through the footnotes not only provides a lovely counter-vibe to
+					Zampano's lengthy (and often tiresome) analysis of the so-called documentary, but gives us a riveting secondary (though I hesitate to 
+					call it such) story to follow.</p>
+				Dec 7, 2017
+				<br>
+				Likes: <a onClick="like1()" id="clicks1">♡ </a>
+			</div>
+			  <table class="commtable" id="comm1">
+				<tr>
+					<td>
+						<div class="comment" id="comment">
+							<b>zampanowasright</b><br />
+							Sure, the Navidson Record shows us the bond between Navidson and Karen, but I think it's disingenuous to call House of Leaves 'a love story'.
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="comment" id="comment">
+							<b>dIscOInfErnO42</b><br />
+							Didn't get that far. The author's clearly trying too hard with the formatting.
+						</div>
+					</td>
+				</tr>
+			  </table>
+		</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="card" id="post">
+					<h2>Crochet Patterns?</h2>
+					<h5>Just looking for some suggestions.</h5>
+					<p>It's been a while. Nothing interesting to post about, but I do have a long weekend coming up so
+					I was hoping to get some crocheting done. If anyone has any suggestions for free patterns, please
+					put them in the comments! I usually stick to amigurumi and try to stay away from sewing, so keep that
+					in mind? Thanks.</p>
+					Sep 2, 2017
+					<br>
+					Likes: <a onClick="like2()" id="clicks2">♡</a>
+				</div>
+			  <table class="commtable" id="comm1">
+				<tr>
+					<td>
+						<div class="comment" id="comment">
+						<b>FluffyBunknee</b><br />
+							Jade from Sweet Softies has a great octopus amigurumi on her blog! No sew, and I think you can 
+							knock one out in a few hours tops.
+					</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="comment" id="comment">
+							<b>CherryonTop</b><br />
+							I saw this really cute cat pattern a while back, but I lost the link...will post here if I ever
+							find it again!
+						</div>
+					</td>
+				</tr>
+			  </table>
+			</td>
+			</tr>
+			</div>
+	</table>
+		  
+			<footer>
+				<p>Made by: Kavya Kolli</p>
+				<p>International Institute of Information Technology, Hyderabad, 2024 </p>
+			</footer>
+	</center>
+
+</body>
+
+</html>

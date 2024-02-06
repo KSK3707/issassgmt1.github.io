@@ -1,0 +1,157 @@
+	.menutop {
+		background: rgba(0, 26, 26, 0);
+		overflow: hidden;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		height: auto;
+		z-index: 100;
+	}
+
+	.menutop a {
+		float: left;
+		display: block;
+		color: Lavender;
+		text-align: center;
+		padding: 2vw 2vw;
+		text-decoration: none;
+		font-size: 2vw;
+	}
+
+
+	.menutop a.active {
+		background-color: RebeccaPurple;
+		color: white;
+	}
+
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+
+	img.contact {
+		border-radius: 100%;
+		width: 8vw;
+		height: 8vw;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	img.homeimg {
+		position: absolute;
+		top: 16vw;
+		width: 20vw;
+		height: 20vw;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 50%;
+	}
+
+	footer {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		font: Arial;
+		color: white;
+		z-index: 1;
+		font-size: 1vw;
+	}
+
+	.overlay {
+		position: absolute;
+		top: 100%;
+		left: 5%;
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0, 0.5);
+		color: #f1f1f1;
+		width: 80%;
+		transition: .5s ease;
+		opacity: 0;
+		color: white;
+		font-size: 2vw;
+		padding: 2vw;
+		border-radius: 25%;
+		text-align: center;
+	}
+
+	.container {
+		position: absolute;
+		width: 40%;
+	}
+
+	.container:hover .overlay {
+		opacity: 1;
+	}
+
+	.contactl {
+		position: relative;
+		width: 70%;
+		top: 30%;
+	}
+
+	.nametxt {
+		position: absolute;
+		top: 30vw;
+		width: 100vw;
+		font-size: 3.5vw;
+	}
+
+	.abttxt {
+		position: absolute;
+		top: 10vw;
+		width: 100vw;
+		font-size: 3.5vw;
+	}
+
+	table.tab1 {
+		position: relative;
+		top: 80vw;
+		left: 27.5%;
+		width: 70vw;
+		font-size: 2vw;
+	}
+
+	body {
+		font-family: "Garamond", serif;
+		background-image: url("images/light-bag.jpg");
+		color: DarkSlateGray;
+	}
+	table.cardtable {
+		position: absolute;
+		top: 5vw;
+		color: DarkSlateGray;
+		left: 15%;
+		width: 70vw;
+		font-size: 3vw;
+	}
+
+	.card {
+		background-color: white;
+		padding: 20px;
+		margin-top: 20px;
+		font-size: 2vw;
+	}
+
+	table.commtable {
+		position: relative;
+		color: DarkSlateGray;
+		left: 15%;
+		width: 59vw;
+		font-size: 1.75vw;
+	}
+	.comment {
+		background-color: white;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	#abttxt{
+		position: relative;
+		padding: 60px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
